@@ -1,6 +1,3 @@
-# Prodigy-Infotech
-A structured collection of web development projects completed as part of my internship at Prodigy Infotech. This repository showcases my progress, assignments, and hands-on experience with front-end and back-end technologies.
-
 # 💼 Web Development Internship @ Prodigy Infotech
 
 A structured collection of responsive and interactive web development projects completed during my internship at **Prodigy Infotech**. This repository showcases all assigned tasks, each designed to build core front-end development skills.

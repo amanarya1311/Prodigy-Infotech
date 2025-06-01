@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="bg-gradient-to-br from-purple-800 to-indigo-900 text-white min-h-screen flex flex-col">
+
+  <header id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out py-4">
+    <nav class="container mx-auto flex justify-between items-center px-4">
+      <a href="#" class="text-2xl font-bold text-white rounded-md p-2 hover:text-purple-200 transition-colors duration-300">
+        PRODIGY INFOTECH
+      </a>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="nav-link text-lg font-medium text-white hover:text-purple-300 transition-colors duration-300 px-3 py-2 rounded-md">Home</a></li>
+        <li><a href="#features" class="nav-link text-lg font-medium text-white hover:text-purple-300 transition-colors duration-300 px-3 py-2 rounded-md">Features</a></li>
+        <li><a href="#about" class="nav-link text-lg font-medium text-white hover:text-purple-300 transition-colors duration-300 px-3 py-2 rounded-md">About</a></li>
+        <li><a href="#contact" class="nav-link text-lg font-medium text-white hover:text-purple-300 transition-colors duration-300 px-3 py-2 rounded-md">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="flex-grow flex items-center justify-center text-center py-20 px-4">
+    <div class="max-w-4xl">
+      <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+        Responsive <br /> Landing Page
+      </h1>
+      <p class="text-xl md:text-2xl text-purple-200 mb-10">
+        Crafting modern web experiences with seamless design and dynamic interactions.
+      </p>
+      <button class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out">
+        Learn More
+      </button>
+    </div>
+  </section>
+
+  <section id="features" class="min-h-screen flex items-center justify-center bg-purple-700 bg-opacity-30 py-20 px-4">
+    <div class="text-center max-w-3xl">
+      <h2 class="text-4xl font-bold mb-6">Key Features</h2>
+      <p class="text-lg text-purple-200">Discover the powerful features that make our landing page stand out.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+        <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold mb-3">Fully Responsive</h3>
+          <p class="text-purple-200">Adapts seamlessly to any screen size, from mobile to desktop.</p>
+        </div>
+        <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold mb-3">Interactive UI</h3>
+          <p class="text-purple-200">Engaging elements and smooth transitions for a better user experience.</p>
+        </div>
+        <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold mb-3">Modern Design</h3>
+          <p class="text-purple-200">Clean, elegant, and contemporary aesthetics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="about" class="min-h-screen flex items-center justify-center bg-purple-800 bg-opacity-40 py-20 px-4">
+  <div class="flex flex-col md:flex-row items-center gap-10 max-w-5xl text-center md:text-left">
+    
+    <!-- Image -->
+    <img src="assets/aman.jpg" alt="Aman Kumar Arya" class="about-img" />
+
+    <!-- Text -->
+    <div>
+  <h2 class="text-4xl font-bold mb-10 text-center">About Us</h2><br><br>
+      <p>
+        Hello! I’m Aman Kumar Arya — a passionate Web Developer and Creative Thinker dedicated to building powerful, meaningful digital experiences.
+        <br><br>
+        From responsive landing pages to full-stack web applications, I believe in writing clean code, solving real-world problems, and continuously learning to grow every day. Whether it's design, performance, or user experience — my goal is to turn your ideas into impactful digital solutions.
+        <br><br>
+        Let’s collaborate and create something amazing together!
+      </p>
+    </div>
+    
+  </div>
+</section>
+
+
+  <section id="contact" class="min-h-screen flex items-center justify-center bg-purple-700 bg-opacity-30 py-20 px-4">
+    <div class="text-center max-w-3xl">
+      <h2 class="text-4xl font-bold mb-6">Contact Us</h2>
+      <p class="text-lg text-purple-200 mb-8">Have a question or a project in mind? Feel free to reach out to us!</p>
+      <form class="max-w-md mx-auto space-y-4">
+        <input type="text" placeholder="Your Name" class="input-field" />
+        <input type="email" placeholder="Your Email" class="input-field" />
+        <textarea placeholder="Your Message" rows="5" class="input-field"></textarea>
+        <button type="submit" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-purple-900 bg-opacity-50 py-8 text-center text-purple-300">
+    <p>&copy; 2024 Prodigy Infotech. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

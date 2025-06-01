@@ -2,8 +2,6 @@
 
 A structured collection of responsive and interactive web development projects completed during my internship at **Prodigy Infotech**. This repository showcases all assigned tasks, each designed to build core front-end development skills.
 
----
-
 ## ✅ Task 1: Responsive Landing Page
 
 ### 📄 Description
@@ -80,4 +78,62 @@ Users can play against each other in a two-player mode, or an optional AI oppone
 - **JavaScript** – for game logic and interactivity
 
 [Tic-Tac-Toe Web App Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_03/)
+
+# 💼 Web Development Internship @ Prodigy Infotech
+
+A curated collection of web development projects developed during my internship at **Prodigy Infotech**, each task demonstrating a leap in creativity, code, and user experience.
+
+## ✅ Task 4: Personal Portfolio Website
+
+### 📄 Description
+This task involved crafting a **Personal Portfolio Website** using **HTML**, **CSS**, and **JavaScript**—a digital mirror reflecting my journey, skills, and aspirations in the world of development.
+
+The portfolio presents my professional profile with grace and clarity, including:
+- A welcoming **Home** section
+- A concise **About Me**
+- A well-organized **Projects Showcase**
+- An informative **Skills** section
+- A direct and responsive **Contact Form**
+
+### 🌟 Features:
+- Fully responsive layout across devices
+- Smooth scroll and modern UI animations
+- Section-based navigation menu
+- Contact form with form validation
+- Eye-catching design with a professional aesthetic
+
+### 🛠 Technologies Used
+- **HTML5** – for the website structure  
+- **CSS3** – for styling, layout, and responsive design  
+- **JavaScript** – for interactive features and dynamic effects
+
+[Portfolio Website Demo Link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_04/)
+
+🌐 *“A portfolio is not just a project—it’s a reflection of who you are, where you’ve been, and where you're headed.”*
+
+## ✅ Task 5: Weather App
+
+### 📄 Description
+This task was to develop a **Weather Web Application** using **HTML**, **CSS**, and **JavaScript**. The app fetches real-time weather data based on user input (city or location) and displays it in an elegant and easy-to-read format.
+
+By integrating with a weather API and adding a touch of design elegance, this app ensures that users can stay updated with the weather, anytime, anywhere.
+
+### 🌟 Features:
+- Input-based city search for weather updates
+- Displays temperature, humidity, wind speed, and weather conditions
+- Clean, modern UI with responsive layout
+- Integrated with real-time **OpenWeatherMap API** (or similar)
+- Friendly error handling for invalid locations
+
+### 🛠 Technologies Used:
+- **HTML5** – for creating the structure and form elements  
+- **CSS3** – for styling and layout responsiveness  
+- **JavaScript (ES6)** – for API integration, DOM manipulation, and logic control  
+- **Weather API** – to retrieve up-to-date weather information
+
+[Weather App Demo Link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_05/)
+
+🌦️ *“In a world full of unpredictability, this weather app gives users a moment of certainty—stylish, simple, and smart.”*
+
+
 

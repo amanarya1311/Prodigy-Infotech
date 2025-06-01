@@ -31,7 +31,7 @@ This task helped me strengthen my understanding of:
 
 ### 📸 Preview
 
-![Responsive Landing Page Preview](./path-to-screenshot-if-added)
+![Responsive Landing Page Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_01/)
 
 ## ✅ Task 2: Stopwatch Web Application
 
@@ -58,7 +58,7 @@ Through this task, I gained hands-on experience in DOM manipulation and event ha
   
 ### 📸 Preview
 
-![Stopwatch Web App Preview](./path-to-screenshot-if-added)
+![Stopwatch Web App Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_02/)
 
 ## ✅ Task 3: Tic-Tac-Toe Web Application
 
@@ -85,5 +85,5 @@ Users can play against each other in a two-player mode, or an optional AI oppone
 
 ### 🎮 Preview
 
-![Tic-Tac-Toe Web App Preview](./path-to-screenshot-if-added)
+![Tic-Tac-Toe Web App Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_03/)
 

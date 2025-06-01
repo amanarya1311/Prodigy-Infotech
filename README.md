@@ -54,8 +54,6 @@ Through this task, I gained hands-on experience in DOM manipulation and event ha
 - **CSS3**
 - **JavaScript (Vanilla)**
   
-### 📸 Preview
-
 [Stopwatch Web App Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_02/)
 
 ## ✅ Task 3: Tic-Tac-Toe Web Application
@@ -80,8 +78,6 @@ Users can play against each other in a two-player mode, or an optional AI oppone
 - **HTML5** – for layout and structure  
 - **CSS3** – for styling the game board and elements  
 - **JavaScript** – for game logic and interactivity
-
-### 🎮 Preview
 
 [Tic-Tac-Toe Web App Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_03/)
 

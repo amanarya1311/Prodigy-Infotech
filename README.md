@@ -29,7 +29,7 @@ This task helped me strengthen my understanding of:
 - **Google Fonts**
 - **Font Awesome**
 - 
-![Responsive Landing Page Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_01/)
+[Responsive Landing Page Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_01/)
 
 ## ✅ Task 2: Stopwatch Web Application
 
@@ -56,7 +56,7 @@ Through this task, I gained hands-on experience in DOM manipulation and event ha
   
 ### 📸 Preview
 
-![Stopwatch Web App Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_02/)
+[Stopwatch Web App Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_02/)
 
 ## ✅ Task 3: Tic-Tac-Toe Web Application
 
@@ -83,5 +83,5 @@ Users can play against each other in a two-player mode, or an optional AI oppone
 
 ### 🎮 Preview
 
-![Tic-Tac-Toe Web App Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_03/)
+[Tic-Tac-Toe Web App Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_03/)
 

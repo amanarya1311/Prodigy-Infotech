@@ -28,9 +28,7 @@ This task helped me strengthen my understanding of:
 - **Flexbox**
 - **Google Fonts**
 - **Font Awesome**
-
-### 📸 Preview
-
+- 
 ![Responsive Landing Page Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_01/)
 
 ## ✅ Task 2: Stopwatch Web Application

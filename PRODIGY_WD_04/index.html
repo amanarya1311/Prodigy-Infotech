@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Kumar Arya - Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-blue-900 to-purple-900 text-white min-h-screen flex flex-col">
+
+    <nav class="bg-gray-800 bg-opacity-70 p-4 sticky top-0 z-50 shadow-lg rounded-b-lg mx-2 mt-2">
+        <div class="container mx-auto flex justify-between items-center flex-wrap">
+            <a href="#" class="text-2xl font-bold text-teal-400 hover:text-teal-300 transition duration-300 ease-in-out">Aman Kumar Arya- Personal Portfolio Website</a>
+            <div class="block lg:hidden">
+                <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-200 border-gray-400 hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
+            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden" id="nav-content">
+                <ul class="text-lg lg:flex justify-end flex-1 items-center">
+                    <li class="mr-6 my-2 lg:my-0">
+                        <a href="#home" class="text-gray-300 hover:text-white transition duration-300 ease-in-out px-3 py-2 rounded-md hover:bg-gray-700">Home</a>
+                    </li>
+                    <li class="mr-6 my-2 lg:my-0">
+                        <a href="#about" class="text-gray-300 hover:text-white transition duration-300 ease-in-out px-3 py-2 rounded-md hover:bg-gray-700">About Me</a>
+                    </li>
+                    <li class="mr-6 my-2 lg:my-0">
+                        <a href="#skills" class="text-gray-300 hover:text-white transition duration-300 ease-in-out px-3 py-2 rounded-md hover:bg-gray-700">Skills</a>
+                    </li>
+                    <li class="mr-6 my-2 lg:my-0">
+                        <a href="#projects" class="text-gray-300 hover:text-white transition duration-300 ease-in-out px-3 py-2 rounded-md hover:bg-gray-700">Projects</a>
+                    </li>
+                    <li class="my-2 lg:my-0">
+                        <a href="#contact" class="text-gray-300 hover:text-white transition duration-300 ease-in-out px-3 py-2 rounded-md hover:bg-gray-700">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow container mx-auto p-4 md:p-8">
+
+        <section id="home" class="flex flex-col md:flex-row items-center justify-center min-h-[calc(100vh-80px)] py-16 text-center md:text-left">
+            <div class="md:w-1/2 p-4">
+                <h1 class="text-5xl md:text-6xl font-extrabold leading-tight text-teal-300 mb-4 animate-fade-in-down">
+                    Hello, I'm <span class="text-purple-300">Aman Kumar Arya</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-6 animate-fade-in-up">
+                    A passionate Web Developer crafting engaging and responsive web experiences.
+                </p>
+                <div class="text-lg text-gray-400">
+                    <p class="mb-2">Specializing in building modern web applications with a focus on user experience and performance.</p>
+                    <p>My expertise includes front-end development, responsive design, and interactive interfaces.</p>
+                </div>
+                <button class="mt-8 bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+                    View My Work
+                </button>
+            </div>
+            <div class="md:w-1/2 p-4 mt-8 md:mt-0 flex justify-center items-center">
+                <img src="assets/aman.jpg" alt="Your Professional Photo" class="w-64 h-64 md:w-80 md:h-80 rounded-full shadow-2xl border-4 border-teal-400 object-cover animate-fade-in-right">
+            </div>
+        </section>
+
+        <section id="about" class="py-16 bg-gray-800 bg-opacity-50 rounded-xl shadow-2xl mb-12 p-8">
+            <h2 class="text-4xl font-bold text-center text-teal-300 mb-10">About Me</h2>
+            <div class="max-w-4xl mx-auto text-lg text-gray-300 leading-relaxed">
+                <p class="mb-6">
+                    Hi, I'm <span class="font-semibold text-teal-200">Aman Kumar Arya</span>, a dedicated web developer with a strong passion for creating dynamic and intuitive web applications. My journey into web development began several years ago, driven by a fascination with how technology can solve real-world problems and enhance user interaction.
+                </p>
+                <p class="mb-6">
+                    I thrive on learning new technologies and continuously improving my skills. My approach to development is centered around clean code, efficient solutions, and a pixel-perfect attention to detail. I believe that a great website is not just functional but also aesthetically pleasing and easy to navigate.
+                </p>
+
+                <h3 class="text-2xl font-semibold text-purple-300 mb-4">Education</h3>
+                <ul class="list-disc list-inside mb-6 space-y-3">
+                    <li>
+                        <span class="font-medium text-teal-200">Bachelor of Sciences</span> - Dr. B.R. Ambedkar University, Agra (2022 - 2024)<br>
+                        <span class="font-medium text-teal-200"> •   Master of Computer Application (Persuing) </span> - M.J.P. Rohilkhand University, Bareilly  (2024 - 2026)
+                        <p class="text-sm text-gray-400">Relevant coursework: Data Structures, Algorithms, Web Technologies, Database Management.</p>
+                    </li>
+                    <li>
+                        <span class="font-medium text-teal-200">Online Certifications</span> - Udemy - (2025)
+                        <p class="text-sm text-gray-400">Specialized in Front-End Development, React.js, Node.js.</p>
+                    </li>
+                </ul>
+
+                <h3 class="text-2xl font-semibold text-purple-300 mb-4">Experience</h3>
+                <div class="mb-6 space-y-4">
+                    <div>
+                        <h4 class="text-xl font-semibold text-teal-250">• Prodigy : Web - Development Internship</h4>
+                        <p class="text-gray-400 text-sm"><b>Role–</b> Web Developer</p>
+                        <p class="text-gray-400 text-sm"><b>Remote:</b> May-June – 2025</p>
+                        <ul class="list-disc list-inside mt-2 space-y-1">
+                            <li>Successfully completed multiple front-end development tasks using HTML, CSS, and JavaScript.</li>
+                            <li>Built a responsive landing page, an interactive stopwatch web application, and a tic-tac-toe game.</li>
+                            <li>Designed and deployed a personal portfolio website, showcasing projects and technical skills.</li>
+                            <li>Developed a weather application integrated with the OpenWeatherAPI to fetch weather data by city.</li>
+                            <li>Received a Certificate of Completion and a Letter of Recommendation for outstanding performance.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-16 bg-gray-800 bg-opacity-50 rounded-xl shadow-2xl mb-12 p-8">
+            <h2 class="text-4xl font-bold text-center text-teal-300 mb-10">My Skills</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-center">
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <h3 class="text-xl font-semibold text-purple-200 mb-2">HTML5</h3>
+                    <p class="text-gray-400">Semantic markup</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <h3 class="text-xl font-semibold text-purple-200 mb-2">CSS3</h3>
+                    <p class="text-gray-400">Responsive Design, Tailwind CSS</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <h3 class="text-xl font-semibold text-purple-200 mb-2">JavaScript (ES6+)</h3>
+                    <p class="text-gray-400">DOM Manipulation, Async JS</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <h3 class="text-xl font-semibold text-purple-200 mb-2">React.js</h3>
+                    <p class="text-gray-400">Components, Hooks, State Management</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <h3 class="text-xl font-semibold text-purple-200 mb-2">Node.js</h3>
+                    <p class="text-gray-400">Express.js, REST APIs</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <h3 class="text-xl font-semibold text-purple-200 mb-2">Git/GitHub</h3>
+                    <p class="text-gray-400">Version Control</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <h3 class="text-xl font-semibold text-purple-200 mb-2">Database</h3>
+                    <p class="text-gray-400">MongoDB, SQL</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <h3 class="text-xl font-semibold text-purple-200 mb-2">UI/UX Basics</h3>
+                    <p class="text-gray-400">Figma, Wireframing</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-16 bg-gray-800 bg-opacity-50 rounded-xl shadow-2xl mb-12 p-8">
+            <h2 class="text-4xl font-bold text-center text-teal-300 mb-10">My Projects</h2>
+            <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-700 rounded-lg shadow-md overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="assets/home.jpg" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-purple-200 mb-2">Responsive Landing Page</h3>
+                        <p class="text-gray-400 text-sm mb-4"> A modern responsive landing page. This project focuses on clean layout, smooth visuals, and beginner-friendly structure.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded-full">Html</span>
+                            <span class="bg-green-600 text-white text-xs px-2 py-1 rounded-full">CSS</span>
+                            <span class="bg-yellow-600 text-white text-xs px-2 py-1 rounded-full">JavaScript</span>
+                        </div>
+                        <a href="https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_01/" target="_blank" class="text-teal-400 hover:text-teal-300 font-medium text-lg inline-flex items-center">
+                            View Project
+                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-700 rounded-lg shadow-md overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="assets/blog.jpg" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-purple-200 mb-2">Safaltaa Hai Blog</h3>
+                        <p class="text-gray-400 text-sm mb-4">A motivational and educational blog hosted on Blogger. It features articles on success, mindset, productivity, and personal growth — aimed at helping young minds rise above challenges.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-red-600 text-white text-xs px-2 py-1 rounded-full">HTML</span>
+                            <span class="bg-blue-400 text-white text-xs px-2 py-1 rounded-full">CSS</span>
+                            <span class="bg-orange-400 text-white text-xs px-2 py-1 rounded-full">JavaScript</span>
+                        </div>
+                          <a href="https://safaltaahai.blogspot.com/" target="_blank" class="text-teal-400 hover:text-teal-300 font-medium text-lg inline-flex items-center">
+                            View Project
+                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-700 rounded-lg shadow-md overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300">
+                    <img src="assets/weather.jpg" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-purple-200 mb-2">Weather App</h3>
+                        <p class="text-gray-400 text-sm mb-4">A clean and responsive weather app that fetches real-time data using the OpenWeatherMap API. Shows temperature, humidity, and weather icons based on city input.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-purple-600 text-white text-xs px-2 py-1 rounded-full">Html</span>
+                            <span class="bg-indigo-600 text-white text-xs px-2 py-1 rounded-full">CSS</span>
+                            <span class="bg-indigo-600 text-white text-xs px-2 py-1 rounded-full">JavaScript</span>
+                        </div>
+                          <a href="https://amanarya1311.github.io/weather-app" target="_blank" class="text-teal-400 hover:text-teal-300 font-medium text-lg inline-flex items-center">
+                            View Project
+                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-16 bg-gray-800 bg-opacity-50 rounded-xl shadow-2xl p-8">
+            <h2 class="text-4xl font-bold text-center text-teal-300 mb-10">Get In Touch</h2>
+            <div class="max-w-2xl mx-auto text-lg text-gray-300">
+                <p class="text-center mb-8">
+                    I'm always open to new opportunities and collaborations. Feel free to reach out!
+                </p>
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-gray-400 text-sm font-bold mb-2">Name</label>
+                        <input type="text" id="name" name="name" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-teal-400 bg-gray-200" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-400 text-sm font-bold mb-2">Email</label>
+                        <input type="email" id="email" name="email" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-teal-400 bg-gray-200" placeholder="your.email@example.com">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-gray-400 text-sm font-bold mb-2">Message</label>
+                        <textarea id="message" name="message" rows="6" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-teal-400 bg-gray-200" placeholder="Your message..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 bg-opacity-70 p-6 text-center text-gray-400 mt-auto rounded-t-lg mx-2 mb-2 shadow-inner">
+        <p>&copy; <span id="current-year"></span> Aman Kumar Arya. All rights reserved @ Prodigy Infotech</p>
+        <div class="flex justify-center space-x-4 mt-4">
+             <a href="https://www.linkedin.com/in/aman-kumar-arya-2z/" class="social-link" target="_blank" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">LinkedIn</a>
+            <a href="https://github.com/amanarya1311/Prodigy-Infotech.git" class="social-link" target="_blank" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">GitHub</a>
+      <a href="https://www.facebook.com/amanaryaji/" class="social-link" target="_blank" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">Facebook</a>
+       <a href="https://www.instagram.com/i_aman_arya/?hl=en" class="social-link" target="_blank"class="text-gray-400 hover:text-white transition duration-300 ease-in-out">Instagram</a>
+      <a href="https://x.com/aman_arya_a2" class="social-link" target="_blank" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">Twitter</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

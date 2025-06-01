@@ -1,0 +1,58 @@
+/* Custom scrollbar for lap list */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1); /* Track color */
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3); /* Thumb color */
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.1); /* Border around the thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Thumb color on hover */
+}
+
+/* Basic styling for body and container */
+body {
+    font-family: 'Inter', sans-serif; /* Ensure Inter font is applied */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 640px) {
+    .stopwatch-container {
+        padding: 1.5rem; /* Reduce padding on smaller screens */
+    }
+
+    .display-area {
+        font-size: 4rem; /* Adjust font size for better fit */
+        padding: 1.5rem;
+    }
+
+    .controls button {
+        width: 100%; /* Make buttons full width on very small screens */
+        padding: 0.75rem 1rem; /* Adjust button padding */
+    }
+
+    h1 {
+        font-size: 2.5rem; /* Adjust heading size */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Adjust subheading size */
+    }
+}
+
+/* Further adjustments for even smaller screens */
+@media (max-width: 480px) {
+    .display-area {
+        font-size: 3rem; /* Further reduce font size */
+    }
+}

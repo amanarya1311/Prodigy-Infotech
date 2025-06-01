@@ -1,0 +1,55 @@
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom scroll-behavior for smooth scrolling */
+        
+        html {
+            scroll-behavior: smooth;
+        }
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-fade-in-down {
+    animation: fadeInDown 1s ease-out forwards;
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.animate-fade-in-right {
+    animation: fadeInRight 1s ease-out forwards;
+}
+
+/* You can add more custom styles here if needed */

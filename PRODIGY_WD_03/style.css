@@ -1,0 +1,62 @@
+/* Import the Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Apply basic styles to the body and ensure font-inter is used */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure the game board cells have a consistent aspect ratio and visual appeal */
+.cell {
+    /* Tailwind classes handle most styling, but this ensures the aspect ratio */
+    display: flex; /* Already present in HTML, but good for redundancy */
+    align-items: center; /* Already present in HTML, but good for redundancy */
+    justify-content: center; /* Already present in HTML, but good for redundancy */
+    font-size: 4rem; /* Adjust font size for responsiveness */
+    font-weight: bold;
+    color: #333;
+    border-radius: 0.75rem; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+    /* --- MODIFIED: Cell background color --- */
+    background-color: #F8F991; /* A light cyan background for cells */
+}
+
+/* Hover effect for cells */
+.cell:hover {
+    /* --- MODIFIED: Cell hover background color --- */
+    background-color: #8DB1AB; /* A slightly darker cyan on hover */
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+/* Styles for 'X' and 'O' marks */
+.cell.X {
+    color: #ef4444; /* Red for X */
+}
+
+.cell.O {
+    color: #22c55e; /* Green for O */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 3rem; /* Smaller title on small screens */
+    }
+
+    #gameStatus {
+        font-size: 1.5rem; /* Smaller status text */
+    }
+
+    .cell {
+        font-size: 3rem; /* Smaller cell content */
+    }
+
+    #restartButton {
+        padding: 0.75rem 1.5rem; /* Smaller button padding */
+        font-size: 1rem; /* Smaller button text */
+    }
+}

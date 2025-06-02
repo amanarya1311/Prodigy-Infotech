@@ -39,17 +39,17 @@ This stopwatch functions just like a digital timer: you can start, stop, and res
 Follow the steps below to run this project on your local machine:
 
 1. Clone the repository:  
-   ` `git clone https://github.com/amanarya1311/Prodigy-Infotech.git`
+    `git clone https://github.com/amanarya1311/Prodigy-Infotech.git`
 
 2. Navigate to the stopwatch folder:  
-   `cd PRODIGY_WD_02`
+   `cd PRODIGY_WD_03`
 
 3. Open the `index.html` file in your browser:  
    - Double-click the file, **or**  
    - Right-click and choose "Open with" > your browser, **or**  
    - Use **Live Server** in VS Code for real-time viewing
 
-[Live Demo](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_02/)
+[Live Demo](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_03/)
 
 ## 👨‍💻 About Me
 

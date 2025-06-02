@@ -58,7 +58,7 @@ To enjoy the game locally on your system:
    - Or right-click and select "Open with" > browser  
    - Or use **Live Server** in VS Code
 
-[Live Demo](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_02/)
+[Live Demo](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_03/)
 
 ## 👨‍💻 About Me
 

@@ -37,7 +37,7 @@ This portfolio website serves as my digital identity, highlighting who I am, wha
 ## 📸 Screenshots
 
 ### Home Section  
-![Home](./assets/home.jpg)
+![Home](./assets/hero.jpg)
 
 ### Skills Section  
 ![Skills](./assets/skills.jpg)

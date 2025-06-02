@@ -1,6 +1,6 @@
 # 🌐 Responsive Landing Page – Task 1 @ Prodigy Infotech
 
-Welcome to my **Responsive Landing Page** project, proudly crafted as part of **Level 1, Task 1** during my web development internship at **Prodigy Infotech**. This project is a graceful blend of structure, interactivity, and design, built using **HTML**, **CSS**, and **JavaScript**.
+Welcome to my **Responsive Landing Page** project, proudly crafted as part of **PRODIGY_WD_01* during my web development internship at **Prodigy Infotech**. This project is a graceful blend of structure, interactivity, and design, built using **HTML**, **CSS**, and **JavaScript**.
 
 ## 📑 Table of Contents
 
@@ -51,8 +51,6 @@ From responsive landing pages to full-stack web applications, I believe in writi
 
 Let’s collaborate and create something amazing together!
 
----
-
 ## 📩 Contact
 
 Let’s connect and build something amazing together:
@@ -60,8 +58,6 @@ Let’s connect and build something amazing together:
 * 💬 Instagram: [@i\_aman\_arya](https://www.instagram.com/i_aman_arya/?hl=en)
 * 🐦 Twitter: [@aman\_arya\_a2](https://x.com/aman_arya_a2)
 * 📘 Facebook: [@amanaryaji](https://www.facebook.com/amanaryaji)
-
----
 
 ## 📸 Screenshots
 
@@ -81,8 +77,6 @@ Let’s connect and build something amazing together:
 
 ![Contact](./assets/contact.jpg)
 
----
-
 ## 🛠️ Technologies Used
 
 * HTML5
@@ -91,17 +85,15 @@ Let’s connect and build something amazing together:
 * Google Fonts (Poppins)
 * Font Awesome Icons
 
----
-
 ## 🚀 How to Run Locally
 
 To explore this project on your local machine, follow these steps:
 
 1. Clone the repository:
-   `git clone https://github.com/amanarya1311/prodigy_infotech.git`
+   `git clone https://github.com/amanarya1311/Prodigy-Infotech.git`
 
 2. Navigate to the project folder:
-   `cd prodigy_task_1_landing_page`
+   `cd PRODIGY_WD_01
 
 3. Open the `index.html` file in your browser:
 

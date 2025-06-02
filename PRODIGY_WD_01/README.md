@@ -1,4 +1,4 @@
-# 🌐 Responsive Landing Page – TPRODIGY_WD_01 @ Prodigy Infotech
+# 🌐 Responsive Landing Page – PRODIGY_WD_01 @ Prodigy Infotech
 
 Welcome to my **Responsive Landing Page** project, proudly crafted as part of **PRODIGY_WD_01* during my web development internship at **Prodigy Infotech**. This project is a graceful blend of structure, interactivity, and design, built using **HTML**, **CSS**, and **JavaScript**.
 

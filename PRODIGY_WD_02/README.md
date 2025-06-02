@@ -42,14 +42,14 @@ Follow the steps below to run this project on your local machine:
     `git clone https://github.com/amanarya1311/Prodigy-Infotech.git`
 
 2. Navigate to the stopwatch folder:  
-   `cd PRODIGY_WD_03`
+   `cd PRODIGY_WD_02`
 
 3. Open the `index.html` file in your browser:  
    - Double-click the file, **or**  
    - Right-click and choose "Open with" > your browser, **or**  
    - Use **Live Server** in VS Code for real-time viewing
 
-[Live Demo](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_03/)
+[Live Demo](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_02/)
 
 ## 👨‍💻 About Me
 

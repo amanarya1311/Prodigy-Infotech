@@ -2,7 +2,7 @@
 
 A structured collection of responsive and interactive web development projects completed during my internship at **Prodigy Infotech**. This repository showcases all assigned tasks, each designed to build core front-end development skills.
 
-## ✅ Task 1: Responsive Landing Page
+## ✅ PRODIGY_WD_01: Responsive Landing Page
 
 ### 📄 Description
 In this task, I developed a **fully responsive landing page** featuring an **interactive navigation menu**. The menu adapts dynamically, changing color or style upon scrolling or hovering over menu items using **JavaScript**.
@@ -29,7 +29,7 @@ This task helped me strengthen my understanding of:
 - 
 [Responsive Landing Page Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_01/)
 
-## ✅ Task 2: Stopwatch Web Application
+## ✅ PRODIGY_WD_02: Stopwatch Web Application
 
 ### 📄 Description
 In this task, I developed a **Stopwatch Web Application** using **HTML**, **CSS**, and **JavaScript**. The application provides essential stopwatch functionalities including:
@@ -54,7 +54,7 @@ Through this task, I gained hands-on experience in DOM manipulation and event ha
   
 [Stopwatch Web App Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_02/)
 
-## ✅ Task 3: Tic-Tac-Toe Web Application
+## ✅ PRODIGY_WD_03: Tic-Tac-Toe Web Application
 
 ### 📄 Description
 This task involved creating a classic **Tic-Tac-Toe Web Application** using **HTML**, **CSS**, and **JavaScript**. The project focuses on enhancing user interaction by:
@@ -79,11 +79,7 @@ Users can play against each other in a two-player mode, or an optional AI oppone
 
 [Tic-Tac-Toe Web App Demo link](https://amanarya1311.github.io/Prodigy-Infotech/PRODIGY_WD_03/)
 
-# 💼 Web Development Internship @ Prodigy Infotech
-
-A curated collection of web development projects developed during my internship at **Prodigy Infotech**, each task demonstrating a leap in creativity, code, and user experience.
-
-## ✅ Task 4: Personal Portfolio Website
+## ✅ PRODIGY_WD_04 : Personal Portfolio Website
 
 ### 📄 Description
 This task involved crafting a **Personal Portfolio Website** using **HTML**, **CSS**, and **JavaScript**—a digital mirror reflecting my journey, skills, and aspirations in the world of development.
@@ -111,7 +107,7 @@ The portfolio presents my professional profile with grace and clarity, including
 
 🌐 *“A portfolio is not just a project—it’s a reflection of who you are, where you’ve been, and where you're headed.”*
 
-## ✅ Task 5: Weather App
+## ✅ PRODIGY_WD_05 : Weather App
 
 ### 📄 Description
 This task was to develop a **Weather Web Application** using **HTML**, **CSS**, and **JavaScript**. The app fetches real-time weather data based on user input (city or location) and displays it in an elegant and easy-to-read format.
